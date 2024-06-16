@@ -1,1 +1,4 @@
-albumentations
+pandas
+scikit-learn
+tqdm
+albumentations==0.5.1
