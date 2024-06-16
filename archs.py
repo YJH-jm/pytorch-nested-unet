@@ -69,6 +69,7 @@ class NestedUNet(nn.Module):
         super().__init__()
 
         nb_filter = [32, 64, 128, 256, 512]
+        # nb_filter = [16, 32, 64, 128, 256] # for road - seg
 
         self.deep_supervision = deep_supervision
 
